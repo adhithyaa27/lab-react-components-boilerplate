@@ -8,5 +8,8 @@ export default defineConfig(() => {
     },
     plugins: [react()],
     assetsInclude: ["**/*.jpg", "**/*.JPG"],
+    server:{
+      port:'7000'
+    }
   };
 });
